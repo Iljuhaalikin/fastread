@@ -2272,6 +2272,10 @@ s
   position: relative;
 }
 
+.benefit__programms__item_5_hide {
+  display: none;
+}
+
 @media screen and (min-width: 1747px) {
   .right {
     transform: rotate(-45deg);
@@ -2299,6 +2303,25 @@ s
 
   .check__speed_bg {
     padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1901px) {
+  .wrapper_2 {
+    position: relative;
+    top: -550px;
+  }
+
+  .benefit__programms__item_5_hide {
+    display: block;
+  }
+
+  .benefit__programms__item_5_show {
+    display: none;
+  }
+
+  .section-boeder__main-wrapper {
+    max-height: 3100px;
   }
 }
 
@@ -2408,6 +2431,10 @@ s
 
   .sheck__speed_container_bg {
     margin-bottom: 40px;
+  }
+
+  .wrapper_2 {
+    top: -530px;
   }
 }
 
@@ -3268,6 +3295,14 @@ s
   .history__records__item p {
     font-size: 14px;
   }
+
+  .wrapper_2 {
+    top: -595px;
+  }
+
+  .section-boeder__main-wrapper {
+    max-height: 2650px;
+  }
 }
 
 @media screen and (max-width: 1441px) {
@@ -3305,6 +3340,14 @@ s
 
   .benefit__programms__wrapper {
     display: grid;
+  }
+
+  .wrapper_2 {
+    top: -740px;
+  }
+
+  .section-boeder__main-wrapper {
+    max-height: 3350px;
   }
 }
 
@@ -3701,6 +3744,15 @@ s
 
   .timetable__tabs__title {
     margin-bottom: 20px;
+  }
+
+  .wrapper_2 {
+    top: 0px;
+  }
+
+  .section-boeder__main-wrapper {
+    max-height: 100%;
+    margin-bottom: -10px;
   }
 }
 
