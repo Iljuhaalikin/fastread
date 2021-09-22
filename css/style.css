@@ -2272,10 +2272,6 @@ s
   position: relative;
 }
 
-.section-boeder__main-wrapper {
-  display: grid;
-}
-
 @media screen and (min-width: 1747px) {
   .right {
     transform: rotate(-45deg);
