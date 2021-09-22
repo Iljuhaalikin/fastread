@@ -231,4 +231,36 @@ $(document).ready(function(){
             e.preventDefault();
             $('.patents__item:hidden').slice(0, 3).slideDown();
            });
+
+    
+        
+
+        ymaps.ready(function () {
+            var map = new ymaps.Map("map", {
+                    center: [55.751574, 37.573856],
+                        zoom: 9,
+                        controls: [],
+                    }
+                )
+        });
+
+        var elem = document.querySelector('.benefit__programms__wrapper');
+
+        var msnry = new Masonry( elem, {
+            itemSelector: '.benefit__programms__item',
+            columnWidth:554,
+            gutter: 20,
+            originLeft: true,
+          });
+
+        if(window.innerWidth < 1441){
+             msnry = new Masonry( elem, {
+                itemSelector: '.benefit__programms__item',
+                columnWidth:402,
+                gutter: 20,
+                originLeft: true
+              });
+        }
+
+        
 });
